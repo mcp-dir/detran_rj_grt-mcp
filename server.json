@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_rj_grt-mcp",
+  "title": "DETRAN RJ: GRT (Guia de Regularização de Taxas)",
+  "description": "DETRAN RJ: GRT (Guia de Regularização de Taxas), official-source lookup. Platform-hosted, pay per qu",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_rj_grt-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_rj_grt"
+    }
+  ]
+}
